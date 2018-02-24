@@ -1,0 +1,103 @@
+/*============== pagination v1 =============**/
+.pagination-wrap{
+    margin:auto;
+    text-align:center;
+}
+.pagination-v1 > li > a,
+.pagination-v1 > li > span {
+    background-color: #ea5745;
+    border: 1px solid #ea5745;
+    border-radius: 4px;
+    color: #fff;
+    float: left;
+    font-size: 14px;
+    line-height: 1.42857;
+    margin-right: 5px;
+    padding: 8px 15px;
+    position: relative;
+    text-decoration: none;
+}
+.pagination-v1 > li > a.active,
+.pagination-v1 > li > a:hover,
+.pagination-v1 > li > span:hover,
+.pagination-v1 > li > a:focus,
+.pagination-v1 > li > span:focus {
+    background-color: #ee8477 !important;
+    border-color: #ea5745;
+    color: #fff;
+}
+
+/*============== pagination v2 =============**/
+.pagination-v2 > li > a,
+.pagination-v2 > li > span {
+    background-color: #45a1ea;
+    border: 1px solid #45a1ea;
+    border-radius: 4px;
+    color: #fff;
+    float: left;
+    font-size: 14px;
+    line-height: 1.42857;
+    margin-right: 5px;
+    padding: 8px 15px;
+    position: relative;
+    text-decoration: none;
+}
+.pagination-v2 > li > a.active,
+.pagination-v2 > li > a:hover,
+.pagination-v2 > li > span:hover,
+.pagination-v2 > li > a:focus,
+.pagination-v2 > li > span:focus {
+    background-color: #77b8ee !important;
+    border-color: #45a1ea;
+    color: #fff;
+}
+
+/*============== pagination v3 =============**/
+.pagination-v3 > li > a,
+.pagination-v3 > li > span {
+    background-color: #27ae60;
+    border: 1px solid #27ae60;
+    border-radius: 4px;
+    color: #fff;
+    float: left;
+    font-size: 14px;
+    line-height: 1.42857;
+    margin-right: 5px;
+    padding: 8px 15px;
+    position: relative;
+    text-decoration: none;
+}
+.pagination-v3 > li > a.active,
+.pagination-v3 > li > a:hover,
+.pagination-v3 > li > span:hover,
+.pagination-v3 > li > a:focus,
+.pagination-v3 > li > span:focus {
+    background-color: #2ecc71 !important;
+    border-color: #27ae60;
+    color: #fff;
+}
+
+/*============== pagination v4 =============**/
+.pagination-v4 > li > a,
+.pagination-v4 > li > span {
+    background-color: #2c3e50;
+    border: 1px solid #2c3e50;
+    border-radius: 4px;
+    color: #fff;
+    float: left;
+    font-size: 14px;
+    line-height: 1.42857;
+    margin-right: 5px;
+    padding: 8px 15px;
+    position: relative;
+    text-decoration: none;
+}
+.pagination-v4 > li > a.active,
+.pagination-v4 > li > a:hover,
+.pagination-v4 > li > span:hover,
+.pagination-v4 > li > a:focus,
+.pagination-v4 > li > span:focus {
+    background-color: #34495e !important;
+    border-color: #2c3e50;
+    color: #fff;
+}

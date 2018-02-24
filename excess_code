@@ -1,0 +1,19 @@
+
+
+
+//print_r($_GET);
+
+      if (isset($_GET['controller'])) {
+          $controller = $_GET['controller'];
+
+      } else {
+          $controller = "Index";
+      }
+
+      if (isset($_GET['method'])) {
+          $method = $_GET['method'];
+      } else {
+          $method = "";
+      }
+       echo "the controller is " . $controller . "<br>";
+       echo "the method is " . $method . "<br>";
